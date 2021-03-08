@@ -62,6 +62,7 @@ nav a:hover {
     right:0;
     position:absolute;
     opacity:0.2;
+    z-index: -1;
 }
 
 .get_started {
@@ -84,15 +85,59 @@ nav a:hover {
     outline: none;
 }
 
-/*.about {
+.about {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 5rem;;
+    padding-top: 5rem;
+    background-color: #B185A7;
+    color: white;
     height: auto;
+    max-width: 100%;
+    padding-bottom: 25px;
 }
 
 .about h2 {
     position: absolute;
-    top: 5rem;
-}*/
+    top: 45rem;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    max-width: 100%;
+    background-color: #FFF4E9;
+    padding-bottom: 25px;
+}
+
+.features ul {
+    position: relative;
+    padding-top: 85px;
+}
+
+.features h2 {
+    position: absolute;
+    top: 60rem;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    background-color: #C3A29E;
+    justify-content: center;
+    color: white;
+    height: 215px;
+}
+
+.contact h2 {
+    position: absolute;
+    top: 72rem;
+}
+
+.contact li {
+    font-size: 25px;
+    text-decoration: none;
+    padding: 5px;
+}
