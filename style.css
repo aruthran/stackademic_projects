@@ -141,3 +141,11 @@ nav a:hover {
     text-decoration: none;
     padding: 5px;
 }
+
+footer {
+    text-align: center;
+    background-color: #424B54;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
