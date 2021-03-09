@@ -142,6 +142,10 @@ nav a:hover {
     padding: 5px;
 }
 
+.fas fa-heart {
+    color: red;
+}
+
 footer {
     text-align: center;
     background-color: #424B54;
